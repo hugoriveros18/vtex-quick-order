@@ -19,7 +19,7 @@ In your theme's `manifest.json`, add the Quick Order app as a dependency:
 
 ```json
   "dependencies": {
-    "vendor.quick-order": "0.x"
+    "itgloberspartnercl.quick-order": "0.x"
   }
 ```
 
