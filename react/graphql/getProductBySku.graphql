@@ -1,0 +1,6 @@
+query($sku: ID!) { #se define que parametro va recibir el query que en este caso es '$sku' que es una variable que se indica que es de tipo 'ID'
+    product(identifier: {field: sku, value: $sku}) { # aqui se declara el query que se va realizar que en este caso es 'prodcut'
+        productId # estos son los campos que se estan solicitando
+        productName
+    }
+}

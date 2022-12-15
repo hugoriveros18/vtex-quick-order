@@ -1,0 +1,120 @@
+.quick__order--container {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    gap            : 10px;
+    width          : 310px;
+    margin-right   : 15px;
+    padding        : 15px;
+    border         : 1px solid #d5d5d5;
+}
+
+.quick__order--title {
+    margin     : 0px;
+    font-family: 'Open Sans';
+    font-size  : 1.1rem;
+    font-weight: 600;
+    color      : #ffffff;
+}
+
+.quick__order--form-container {
+    width  : 100%;
+    display: flex;
+    gap    : 5px;
+}
+
+.quick__order--form-input {
+    width      : 30%;
+    padding    : 3px;
+    font-family: 'Open Sans';
+    font-size  : 1rem;
+    font-weight: 400;
+    color      : #000000;
+}
+
+.quick__order--form-submit {
+    width           : 70%;
+    padding         : 3px;
+    font-family     : 'Open Sans';
+    font-size       : 0.9rem;
+    font-weight     : 400;
+    border          : none;
+    color           : #ffffff;
+    background-color: #E10600;
+    cursor          : pointer;
+}
+
+.quick__order--form-submit:hover {
+    background-color: #C70500;
+}
+
+@media screen and (max-width: 1024px) {
+    .quick__order--container {
+        width      : 225px;
+        padding    : 8px;
+    }
+
+    .quick__order--title {
+        font-size: 0.9em;
+    }
+
+    .quick__order--form-input {
+        font-size: 0.8rem;
+    }
+
+    .quick__order--form-submit {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .quick__order--container {
+        width      : 200px;
+    }
+
+    .quick__order--title {
+        font-size: 0.8rem;
+    }
+
+    .quick__order--form-input {
+        font-size: 0.7rem;
+    }
+
+    .quick__order--form-submit {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .quick__order--container {
+        flex-direction: row;
+        width         : 100%;
+        margin-left   : 0px;
+        padding       : 5px 10px;
+    }
+
+    .quick__order--title {
+        width     : 30%;
+        color     : #000000;
+        font-size : 1rem;
+        text-align: center;
+        padding   : 4px;
+    }
+
+    .quick__order--form-container {
+        width  : 70%;
+        display: flex;
+        gap    : 10px;
+    }
+
+    .quick__order--form-input {
+        font-size: 0.75rem;
+        padding  : 5px 3px;
+    }
+
+    .quick__order--form-submit {
+        font-size: 0.75rem;
+        padding  : 5px 10px;
+    }
+}
